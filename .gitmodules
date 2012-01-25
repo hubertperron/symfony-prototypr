@@ -1,0 +1,3 @@
+[submodule "vendor/bundles/Prototypr/SystemBundle"]
+	path = vendor/bundles/Prototypr/SystemBundle
+	url = git@github.com:hubertperron/PrototyprSystemBundle.git
