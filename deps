@@ -1,3 +1,5 @@
+; Standard distribution 2.0.9
+
 [symfony]
     git=http://github.com/symfony/symfony.git
     version=v2.0.9
@@ -62,6 +64,20 @@
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
 
+; Prototypr
+
 [PrototyprSystemBundle]
     git=http://github.com/hubertperron/PrototyprSystemBundle
     target=/bundles/Prototypr/SystemBundle
+
+[JMSI18nRoutingBundle]
+    git=http://github.com/schmittjoh/JMSI18nRoutingBundle.git
+    target=/bundles/JMS/I18nRoutingBundle
+
+[FOSUserBundle]
+    git=http://github.com/FriendsOfSymfony/FOSUserBundle.git
+    target=bundles/FOS/UserBundle
+
+[FOSJsRoutingBundle]
+    git=http://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git
+    target=bundles/FOS/JsRoutingBundle
