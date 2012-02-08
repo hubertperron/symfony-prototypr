@@ -2,7 +2,7 @@
 
 [symfony]
     git=http://github.com/symfony/symfony.git
-    version=origin/2.0
+    version=v2.0.10
 
 [twig]
     git=http://github.com/fabpot/Twig.git
@@ -69,6 +69,16 @@
 [PrototyprSystemBundle]
     git=http://github.com/hubertperron/PrototyprSystemBundle
     target=/bundles/Prototypr/SystemBundle
+
+[DoctrineExtensions]
+    git=http://github.com/l3pp4rd/DoctrineExtensions.git
+    target=/gedmo-doctrine-extensions
+    version=2.1.x
+
+[StofDoctrineExtensionsBundle]
+    git=http://github.com/stof/StofDoctrineExtensionsBundle.git
+    target=/bundles/Stof/DoctrineExtensionsBundle
+    version=1.0.x
 
 [JMSI18nRoutingBundle]
     git=http://github.com/schmittjoh/JMSI18nRoutingBundle.git
