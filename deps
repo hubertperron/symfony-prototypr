@@ -91,6 +91,10 @@
 [php-parser]
     git=https://github.com/nikic/PHP-Parser.git
 
+[JMSDebuggingBundle]
+    git=git://github.com/schmittjoh/JMSDebuggingBundle.git
+    target=/bundles/JMS/DebuggingBundle
+
 [FOSUserBundle]
     git=http://github.com/FriendsOfSymfony/FOSUserBundle.git
     target=bundles/FOS/UserBundle
