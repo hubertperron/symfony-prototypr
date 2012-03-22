@@ -84,6 +84,13 @@
     git=http://github.com/schmittjoh/JMSI18nRoutingBundle.git
     target=/bundles/JMS/I18nRoutingBundle
 
+[JMSTranslationBundle]
+    git=git://github.com/schmittjoh/JMSTranslationBundle.git
+    target=bundles/JMS/TranslationBundle
+
+[php-parser]
+    git=https://github.com/nikic/PHP-Parser.git
+
 [FOSUserBundle]
     git=http://github.com/FriendsOfSymfony/FOSUserBundle.git
     target=bundles/FOS/UserBundle
