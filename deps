@@ -109,3 +109,7 @@
 [DoctrineFixturesBundle]
     git=http://github.com/symfony/DoctrineFixturesBundle.git
     target=/bundles/Symfony/Bundle/DoctrineFixturesBundle
+
+[LiipFunctionalTestBundle]
+    git=git://github.com/liip/LiipFunctionalTestBundle.git
+    target=bundles/Liip/FunctionalTestBundle

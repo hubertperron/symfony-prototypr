@@ -19,6 +19,7 @@ $loader->registerNamespaces(array(
     'Stof'             => __DIR__.'/../vendor/bundles',
     'Gedmo'            => __DIR__.'/../vendor/gedmo-doctrine-extensions/lib',
     'Doctrine\\Common' => __DIR__.'/../vendor/doctrine-common/lib',
+    'Liip'             => __DIR__.'/../vendor/bundles',
 
     'Prototypr'        => __DIR__.'/../vendor/bundles',
 ));
