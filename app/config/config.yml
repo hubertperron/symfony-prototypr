@@ -1,5 +1,5 @@
 imports:
-    - { resource: parameters.ini }
+    - { resource: parameters.yml }
     - { resource: security.yml }
 
 framework:
@@ -63,5 +63,5 @@ jms_security_extra:
 
 jms_i18n_routing:
     default_locale: en
-    locales: [de, en]
+    locales: [fr, en]
     strategy: prefix_except_default
