@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             new Liip\FunctionalTestBundle\LiipFunctionalTestBundle(),
 
             new Prototypr\SystemBundle\PrototyprSystemBundle(),
+            new Prototypr\FrontendBundle\PrototyprFrontendBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
