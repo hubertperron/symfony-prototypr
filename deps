@@ -70,6 +70,10 @@
     git=http://github.com/hubertperron/PrototyprSystemBundle
     target=/bundles/Prototypr/SystemBundle
 
+[PrototyprFrontendBundle]
+    git=http://github.com/hubertperron/PrototyprFrontendBundle
+    target=/bundles/Prototypr/FrontendBundle
+
 [DoctrineExtensions]
     git=http://github.com/l3pp4rd/DoctrineExtensions.git
     target=/gedmo-doctrine-extensions
