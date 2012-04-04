@@ -74,6 +74,10 @@
     git=http://github.com/hubertperron/PrototyprFrontendBundle
     target=/bundles/Prototypr/FrontendBundle
 
+[PrototyprFrontendNewsBundle]
+    git=http://github.com/hubertperron/PrototyprFrontendNewsBundle
+    target=/bundles/Prototypr/Frontend/NewsBundle
+
 [DoctrineExtensions]
     git=http://github.com/l3pp4rd/DoctrineExtensions.git
     target=/gedmo-doctrine-extensions
