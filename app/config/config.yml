@@ -71,5 +71,5 @@ jms_security_extra:
 
 jms_i18n_routing:
     default_locale: en
-    locales: [fr, en]
+    locales: [en]
     strategy: prefix_except_default
