@@ -74,9 +74,9 @@
     git=http://github.com/hubertperron/PrototyprFrontendBundle
     target=/bundles/Prototypr/FrontendBundle
 
-[PrototyprFrontendNewsBundle]
+[PrototyprNewsBundle]
     git=http://github.com/hubertperron/PrototyprFrontendNewsBundle
-    target=/bundles/Prototypr/Frontend/NewsBundle
+    target=/bundles/Prototypr/NewsBundle
 
 [DoctrineExtensions]
     git=http://github.com/l3pp4rd/DoctrineExtensions.git

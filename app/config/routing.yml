@@ -1,11 +1,10 @@
-
 # Internal routing configuration to handle ESI
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
 
-PrototyprFrontendNewsBundle:
-    resource: "@PrototyprFrontendNewsBundle/Resources/config/routing.yml"
+PrototyprNewsBundle:
+    resource: "@PrototyprNewsBundle/Resources/config/routing.yml"
 
 PrototyprSystemBundle:
     resource: "@PrototyprSystemBundle/Resources/config/routing.yml"

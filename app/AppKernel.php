@@ -26,7 +26,7 @@ class AppKernel extends Kernel
 
             new Prototypr\SystemBundle\PrototyprSystemBundle(),
             new Prototypr\FrontendBundle\PrototyprFrontendBundle(),
-            new Prototypr\Frontend\NewsBundle\PrototyprFrontendNewsBundle(),
+            new Prototypr\NewsBundle\PrototyprNewsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
