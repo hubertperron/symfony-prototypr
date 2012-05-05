@@ -2,11 +2,11 @@
 
 [symfony]
     git=http://github.com/symfony/symfony.git
-    version=v2.0.12
+    version=v2.0.13
 
 [twig]
     git=http://github.com/fabpot/Twig.git
-    version=v1.6.2
+    version=v1.7.0
 
 [monolog]
     git=http://github.com/Seldaek/monolog.git
@@ -26,7 +26,7 @@
 
 [swiftmailer]
     git=http://github.com/swiftmailer/swiftmailer.git
-    version=v4.1.5
+    version=v4.1.7
 
 [assetic]
     git=http://github.com/kriswallsmith/assetic.git
@@ -98,10 +98,6 @@
 
 [php-parser]
     git=https://github.com/nikic/PHP-Parser.git
-
-[JMSDebuggingBundle]
-    git=git://github.com/schmittjoh/JMSDebuggingBundle.git
-    target=/bundles/JMS/DebuggingBundle
 
 [FOSUserBundle]
     git=http://github.com/FriendsOfSymfony/FOSUserBundle.git
