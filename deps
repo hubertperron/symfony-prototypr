@@ -1,4 +1,4 @@
-; Standard distribution 2.0.12
+; Standard distribution 2.0.13
 
 [symfony]
     git=http://github.com/symfony/symfony.git
@@ -73,6 +73,10 @@
 [PrototyprFrontendBundle]
     git=http://github.com/hubertperron/PrototyprFrontendBundle
     target=/bundles/Prototypr/FrontendBundle
+
+[PrototyprBackendBundle]
+    git=http://github.com/hubertperron/PrototyprBackendBundle
+    target=/bundles/Prototypr/BackendBundle
 
 [PrototyprNewsBundle]
     git=http://github.com/hubertperron/PrototyprFrontendNewsBundle

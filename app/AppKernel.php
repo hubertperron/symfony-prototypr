@@ -26,6 +26,7 @@ class AppKernel extends Kernel
 
             new Prototypr\SystemBundle\PrototyprSystemBundle(),
             new Prototypr\FrontendBundle\PrototyprFrontendBundle(),
+            new Prototypr\BackendBundle\PrototyprBackendBundle(),
             new Prototypr\NewsBundle\PrototyprNewsBundle(),
         );
 
