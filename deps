@@ -1,8 +1,8 @@
-; Standard distribution 2.0.13
+; Standard distribution 2.0.14
 
 [symfony]
     git=http://github.com/symfony/symfony.git
-    version=v2.0.13
+    version=v2.0.14
 
 [twig]
     git=http://github.com/fabpot/Twig.git
