@@ -64,7 +64,7 @@
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
 
-; Prototypr
+; Prototypr base
 
 [PrototyprSystemBundle]
     git=http://github.com/hubertperron/PrototyprSystemBundle
@@ -78,9 +78,15 @@
     git=http://github.com/hubertperron/PrototyprBackendBundle
     target=/bundles/Prototypr/BackendBundle
 
+[PrototyprPageBundle]
+    git=http://github.com/hubertperron/PrototyprPageBundle
+    target=/bundles/Prototypr/PageBundle
+
 [PrototyprNewsBundle]
-    git=http://github.com/hubertperron/PrototyprFrontendNewsBundle
+    git=http://github.com/hubertperron/PrototyprNewsBundle
     target=/bundles/Prototypr/NewsBundle
+
+; Prototypr deps
 
 [DoctrineExtensions]
     git=http://github.com/l3pp4rd/DoctrineExtensions.git

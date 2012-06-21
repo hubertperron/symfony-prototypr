@@ -3,6 +3,12 @@
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
 
+PrototyprPageBundle:
+    resource: "@PrototyprPageBundle/Resources/config/routing.yml"
+
+PrototyprHomeBundle:
+    resource: "@PrototyprHomeBundle/Resources/config/routing.yml"
+
 PrototyprNewsBundle:
     resource: "@PrototyprNewsBundle/Resources/config/routing.yml"
 
