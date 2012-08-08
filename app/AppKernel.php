@@ -13,23 +13,25 @@ class AppKernel extends Kernel
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
-            new Symfony\Bundle\DoctrineBundle\DoctrineBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+            new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new JMS\AopBundle\JMSAopBundle(),
+            new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
 
-            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+//            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
-            new JMS\TranslationBundle\JMSTranslationBundle(),
-            new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle(),
-            new Liip\FunctionalTestBundle\LiipFunctionalTestBundle(),
-
+//            new JMS\TranslationBundle\JMSTranslationBundle(),
+//            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+//            new Liip\FunctionalTestBundle\LiipFunctionalTestBundle(),
+//
             new Prototypr\SystemBundle\PrototyprSystemBundle(),
-            new Prototypr\FrontendBundle\PrototyprFrontendBundle(),
-            new Prototypr\BackendBundle\PrototyprBackendBundle(),
-            new Prototypr\NewsBundle\PrototyprNewsBundle(),
-            new Prototypr\HomeBundle\PrototyprHomeBundle(),
-            new Prototypr\PageBundle\PrototyprPageBundle(),
+//            new Prototypr\FrontendBundle\PrototyprFrontendBundle(),
+//            new Prototypr\BackendBundle\PrototyprBackendBundle(),
+//            new Prototypr\NewsBundle\PrototyprNewsBundle(),
+//            new Prototypr\HomeBundle\PrototyprHomeBundle(),
+//            new Prototypr\PageBundle\PrototyprPageBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
